@@ -49,12 +49,10 @@ img {
 }
 
 body {
-  max-width: 1400px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   color: #434455;
   background-color: #ffffff;
-  margin: 0 auto;
 }
 
 .visually-hidden {
@@ -479,6 +477,7 @@ body {
 
 .customers-item {
   flex-basis: calc((100% - 16px) / 2);
+  height: 88px;
 }
 
 .customers-item:hover .customs-icon {
@@ -510,7 +509,6 @@ body {
 
 .footer {
   background-color: var(--background-color-vision, #2e2f42);
-  padding: 96px 15px;
 }
 
 .footer-container {
@@ -522,7 +520,7 @@ body {
 }
 
 .footer-logo {
-  max-width: 268px;
+  width: 264px;
   text-align: center;
 }
 
@@ -541,7 +539,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-text-footer, #f4f4fd);
   margin-top: 16px;
-  text-align: start;
 }
 
 .footer-cocial {
@@ -587,7 +584,6 @@ body {
 }
 
 .footer-subscribe {
-  width: 100%;
   text-align: center;
 }
 
@@ -599,7 +595,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-team-name, #ffffff);
-  height: 24px;
   margin-bottom: 16px;
 }
 
@@ -607,7 +602,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
   gap: 16px;
 }
 
@@ -782,7 +776,10 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  width: 392px;
+  width: 100%;
+  min-height: 586px;
+  max-width: 392px;
+  overflow: scroll;
 
   padding: 72px 16px 24px 16px;
   background: #fcfcfc;

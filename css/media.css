@@ -184,9 +184,7 @@
   }
 
   .footer-logo {
-    display: flex;
-    flex-direction: column;
-    max-width: 264px;
+    width: 264px;
     margin-right: 120px;
   }
 
@@ -199,9 +197,7 @@
   }
 
   .footer-cocial {
-    display: flex;
     flex-direction: column;
-    max-width: 208px;
     margin-right: 80px;
   }
 
@@ -210,18 +206,11 @@
   }
 
   .footer-subscribe {
-    display: flex;
     flex-direction: column;
-
-    margin-left: auto;
   }
 
   .subscribe-input {
-    width: 100%;
-  }
-
-  .subscribe-text {
-    margin-right: auto;
+    width: 264px;
   }
 
   .footer-buton-subscribe-wrap {
