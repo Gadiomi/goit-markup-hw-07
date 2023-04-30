@@ -482,6 +482,7 @@ body {
 
 .customers-item {
   flex-basis: calc((100% - 16px) / 2);
+  height: 88px;
 }
 
 .customers-item:hover .customs-icon {
@@ -525,7 +526,7 @@ body {
 }
 
 .footer-logo {
-  max-width: 268px;
+  max-width: 264px;
   text-align: center;
 }
 

@@ -217,7 +217,7 @@
   }
 
   .subscribe-input {
-    width: 100%;
+    width: 264px;
   }
 
   .subscribe-text {
@@ -279,6 +279,7 @@
   }
 
   .subscribe-input {
+    width: 264px;
     margin-right: 24px;
   }
 
