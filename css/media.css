@@ -184,7 +184,9 @@
   }
 
   .footer-logo {
-    width: 264px;
+    display: flex;
+    flex-direction: column;
+    max-width: 264px;
     margin-right: 120px;
   }
 
@@ -197,7 +199,9 @@
   }
 
   .footer-cocial {
+    display: flex;
     flex-direction: column;
+    max-width: 208px;
     margin-right: 80px;
   }
 
@@ -206,11 +210,18 @@
   }
 
   .footer-subscribe {
+    display: flex;
     flex-direction: column;
+
+    margin-left: auto;
   }
 
   .subscribe-input {
-    width: 264px;
+    width: 100%;
+  }
+
+  .subscribe-text {
+    margin-right: auto;
   }
 
   .footer-buton-subscribe-wrap {
@@ -265,6 +276,10 @@
 
   .header-address {
     margin-left: auto;
+  }
+
+  .subscribe-input {
+    margin-right: 24px;
   }
 
   .header-item {
@@ -400,10 +415,10 @@
     flex-direction: row;
     flex-wrap: wrap;
     padding-left: 0;
-    padding-right: 0;
     column-gap: 24px;
     justify-content: center;
     max-width: 552px;
+    align-items: baseline;
   }
 
   .footer-cocial {
