@@ -298,7 +298,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-width: 428px;
+  /* min-width: 428px; */
   height: 432px;
   margin: 0 auto;
 }
