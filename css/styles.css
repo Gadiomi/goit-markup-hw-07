@@ -52,12 +52,10 @@ img {
 }
 
 body {
-  max-width: 1400px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   color: #434455;
   background-color: #ffffff;
-  margin: 0 auto;
 }
 
 .visually-hidden {
@@ -161,10 +159,6 @@ body {
   flex-wrap: wrap;
 }
 
-.activ-page {
-  color: var(--bg-color-social-icons);
-}
-
 .header-contact {
   display: none;
 }
@@ -241,6 +235,10 @@ body {
   transition: color var(--transition);
 }
 
+.activ-page {
+  color: var(--bg-color-social-icons);
+}
+
 .menu-item:is(:hover, :focus) {
   color: var(--text-color-focus-hover, #404bbf);
 }
@@ -300,6 +298,9 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  min-width: 428px;
+  height: 432px;
+  margin: 0 auto;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -362,7 +363,6 @@ body {
 
 .visionstrategy-titl {
   margin-bottom: 8px;
-  text-align: center;
 }
 
 .visionstrategy-text {
@@ -526,8 +526,8 @@ body {
 }
 
 .footer-logo {
-  max-width: 264px;
-  text-align: center;
+  width: 264px;
+  /* text-align: center; */
 }
 
 .footer-logo-web {
@@ -548,9 +548,9 @@ body {
   text-align: start;
 }
 
-.footer-cocial {
+/* .footer-cocial {
   text-align: center;
-}
+} */
 
 .footer-cocial-media {
   font-weight: 500;
@@ -590,10 +590,10 @@ body {
   fill: var(--color-text-footer, #f4f4fd);
 }
 
-.footer-subscribe {
+/* .footer-subscribe {
   width: 100%;
   text-align: center;
-}
+} */
 
 .subscribe-text {
   font-family: "Roboto";
@@ -786,7 +786,11 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  width: 392px;
+  width: 95%;
+  max-width: 392px;
+  height: 95%;
+  min-height: 586px;
+  overflow: scroll;
 
   padding: 72px 16px 24px 16px;
   background: #fcfcfc;
@@ -834,9 +838,10 @@ body {
 }
 
 .modal-form-btn {
+  display: block;
   width: 169px;
   padding: 16px 0 16px 0;
-  margin-left: 95px;
+  margin: 0 auto;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   font-weight: 500;
   font-size: 16px;
@@ -951,7 +956,7 @@ body {
   padding-left: 16px;
   padding-top: 8px;
   resize: none;
-  width: 360px;
+  width: 100%;
   height: 120px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;

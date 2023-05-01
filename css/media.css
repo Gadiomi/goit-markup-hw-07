@@ -75,6 +75,8 @@
 
   .visionhero {
     background-image: var(--bg-gradient), url(../images/hero-bg-optim.jpg);
+    min-width: 1440px;
+    height: 600px;
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -136,6 +138,7 @@
 
   .benefits {
     display: block;
+    padding-top: 0;
   }
 
   .benefits-titl {
@@ -184,9 +187,8 @@
   }
 
   .footer-logo {
-    display: flex;
     flex-direction: column;
-    max-width: 264px;
+    width: 264px;
     margin-right: 120px;
   }
 
@@ -194,14 +196,7 @@
     text-align: start;
   }
 
-  .footer-logo-web {
-    text-align: start;
-  }
-
   .footer-cocial {
-    display: flex;
-    flex-direction: column;
-    max-width: 208px;
     margin-right: 80px;
   }
 
@@ -210,9 +205,6 @@
   }
 
   .footer-subscribe {
-    display: flex;
-    flex-direction: column;
-
     margin-left: auto;
   }
 
@@ -343,6 +335,8 @@
 
   .visionhero {
     background-image: var(--bg-gradient), url(../images/hero-bg-optim.jpg);
+    min-width: 768px;
+    height: 436px;
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -409,7 +403,7 @@
   }
 
   .footer {
-    padding: 96px 15px 96px;
+    padding: 96px 0;
   }
 
   .footer-container {
@@ -497,7 +491,18 @@
         url(../images/hero-bg-optim-mobile-2x.jpg);
     }
   }
-
+  .visionstrategy-titl {
+    text-align: center;
+  }
+  .footer-cocial-media {
+    text-align: center;
+  }
+  .subscribe-text {
+    text-align: center;
+  }
+  .footer-logo {
+    text-align: center;
+  }
   .menu-tel {
     font-size: 20px;
     color: var(--bg-color-social-icons);
@@ -505,6 +510,10 @@
 
   .menu-soc-list {
     gap: 20px;
+  }
+
+  .footer-cocial {
+    text-align: center;
   }
 
   .filter-list {
