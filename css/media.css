@@ -207,6 +207,19 @@
   .footer-subscribe {
     margin-left: auto;
   }
+  .footer-container {
+    align-items: start;
+  }
+
+  .footer-cocial-media {
+    text-align: start;
+  }
+  .subscribe-text {
+    text-align: start;
+  }
+  .footer-logo {
+    text-align: start;
+  }
 
   .subscribe-input {
     width: 264px;
@@ -494,7 +507,7 @@
   .visionstrategy-titl {
     text-align: center;
   }
-  .footer-cocial-media {
+  /* .footer-cocial-media {
     text-align: center;
   }
   .subscribe-text {
@@ -502,7 +515,7 @@
   }
   .footer-logo {
     text-align: center;
-  }
+  } */
   .menu-tel {
     font-size: 20px;
     color: var(--bg-color-social-icons);

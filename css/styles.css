@@ -527,7 +527,15 @@ body {
 
 .footer-logo {
   width: 264px;
-  /* text-align: center; */
+  text-align: center;
+}
+
+.footer-cocial-media {
+  text-align: center;
+}
+
+.subscribe-text {
+  text-align: center;
 }
 
 .footer-logo-web {
